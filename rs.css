@@ -4,8 +4,8 @@
     box-sizing: border-box;
     max-width: 100%;
     font-family: Hanken Grotesk;
-}
-.left{
+    }
+    .left{
     display: flex;
     flex-direction: column;
     background-image:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -14,17 +14,17 @@
     border-radius: 25px;
     padding: 1.5%;
     box-shadow: 5px 3px 10px hsla(224, 30%, 27%, 0.1);
-
-}
-body{
+    
+    }
+    body{
     display:flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin: auto;
     min-height: 100vh;
-}
-.circle{
+    }
+    .circle{
     width:150px;
     height: 150px;
     border-radius: 50%;
@@ -32,110 +32,156 @@ body{
     margin:auto;
     padding: 12.5%;
     text-align: center;
-}
-.bold{
-   font-weight: 800;
+    }
+    .bold{
+    font-weight: 800;
     color: hsl(0, 0%, 100%);
-}
-.big{
+    }
+    .big{
     font-size: xxx-large;
-}
-.light{
+    }
+    .light{
     color: hsla(0, 0%, 100%, 0.5);
     font-weight: 600
-}
-.bold_small{
+    }
+    .bold_small{
     font-weight: 700;
-     color: hsl(0, 0%, 100%);
-     font-size: x-large;
- }
- .top{
+    color: hsl(0, 0%, 100%);
+    font-size: x-large;
+    }
+    .top{
     margin: 2.5%;
     font-weight: 700;
- }
- .right{
+    }
+    .right{
     display: flex;
     flex-direction: column;
     gap: 10px;
     height: auto;
     border-radius: 8px;
-    width:17%;
+    width:20%;
     text-align: start;
-    padding: 1%;
     box-shadow: 5px 3px 10px hsla(224, 30%, 27%, 0.1);
     /* align-items: center; */
- }
- .light1{
+    }
+    .light1{
     color: hsla(224, 30%, 27%, 0.5);
-}
-.number{
+    }
+    .number{
     font-weight: 500;
-}
-#reaction{
+    }
+    #reaction{
     border-radius: 8px;
     background-color: hsla(0, 100%, 67%, 0.08);
     padding: 5%;
-}
-.recbold{
-color: hsla(0, 100%, 67%, 1);
-padding-left: 1%;
-}
-svg{
+    }
+    .recbold{
+    color: hsla(0, 100%, 67%, 1);
+    padding-left: 1%;
+    }
+    svg{
     align-items: center;
-}
-
-#memory{
+    }
+    
+    #memory{
     border-radius: 8px;
     background-color:hsla(39, 100%, 56%, 0.08);
     padding: 5%;
-}
-.membold{
+    }
+    .membold{
     color: hsla(39, 100%, 56%, 1);
-}
-#verbal{
+    }
+    #verbal{
     border-radius: 8px;
-    background-color:  hsla(166, 100%, 37%, 0.08);
+    background-color: hsla(166, 100%, 37%, 0.08);
     padding: 5%;
-}
-.verbold{
- color: hsla(166, 100%, 37%, 1);
-}
-#visual{
+    }
+    .verbold{
+    color: hsla(166, 100%, 37%, 1);
+    }
+    #visual{
     border-radius: 8px;
-    background-color:  hsla(234, 85%, 45%, 0.08);
+    background-color: hsla(234, 85%, 45%, 0.08);
     padding: 5%;
-}
-.visbold{
-color: hsla(234, 85%, 45%, 1);
-}
- button{
+    }
+    .visbold{
+    color: hsla(234, 85%, 45%, 1);
+    }
+    button{
     background-color: hsl(224, 30%, 27%);
     border-radius: 100px;
     color:hsl(0, 0%, 100%);
     width: 100%;
     padding: 5%;
- }
- .distance{
+    }
+    .distance{
     padding-left: 30%;
- }
+    }
  .distance1{
- padding-left: 38%;
+    padding-left: 38%;
  }
- p{
+    p{
     font-weight: 500;
     color: hsla(0, 0%, 100%, 0.5)
- }
- svg{
+    }
+    svg{
     align-items: centre;
- }
- button:hover span {
-    display: none
-  }
-  .sum{
+    }
+    .sum{
     font-weight: 700;
-  }
-  .all{
+    }
+    .all{
     display: flex;
     justify-content: center;
     width: 100%;
-  }
+    }
+    
+  @media (max-width: 450px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 100%;
+        max-height:100vh;
+        font-family: Hanken Grotesk;
+        }
+    .all{
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+        width: 100%;
+    }
+    .left{
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        border-radius: 0 0 50px 50px;
+        
+    }
+    .right{
+                height: 50vh;
+        flex-direction: column;
+        margin: 0;
+        display: flex;
+        width: 100%;
+        padding: 5%;
+        box-shadow: none;
+    }
+    button{
+        font-size: larger;
+        font-weight: 600;
+        color: hsla(0, 0%, 100%, 0.85)
+    }
+    .distance{
+        padding-left: 54%;
+        }
+     .distance1{
+        padding-left: 58%;
+     }
+    .distance2{
+        padding-left: 52%;
+     }
+    }
