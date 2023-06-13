@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: Hanken Grotesk;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width:20%;
+    height: auto;
+    border-radius: 25px;
+    padding: 1.5%;
+    box-shadow: 5px 3px 10px hsla(224, 30%, 27%, 0.1);
+
+}
+body{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    min-height: 100vh;
+}
+.circle{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin:auto;
+    padding: 12.5%;
+    text-align: center;
+}
+.bold{
+   font-weight: 800;
+    color: hsl(0, 0%, 100%);
+}
+.big{
+    font-size: xxx-large;
+}
+.light{
+    color: hsla(0, 0%, 100%, 0.5);
+    font-weight: 600
+}
+.bold_small{
+    font-weight: 700;
+     color: hsl(0, 0%, 100%);
+     font-size: x-large;
+ }
+ .top{
+    margin: 2.5%;
+    font-weight: 700;
+ }
+ .right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    border-radius: 8px;
+    width:17%;
+    text-align: start;
+    padding: 1%;
+    box-shadow: 5px 3px 10px hsla(224, 30%, 27%, 0.1);
+    /* align-items: center; */
+ }
+ .light1{
+    color: hsla(224, 30%, 27%, 0.5);
+}
+.number{
+    font-weight: 500;
+}
+#reaction{
+    border-radius: 8px;
+    background-color: hsla(0, 100%, 67%, 0.08);
+    padding: 5%;
+}
+.recbold{
+color: hsla(0, 100%, 67%, 1);
+padding-left: 1%;
+}
+svg{
+    align-items: center;
+}
+
+#memory{
+    border-radius: 8px;
+    background-color:hsla(39, 100%, 56%, 0.08);
+    padding: 5%;
+}
+.membold{
+    color: hsla(39, 100%, 56%, 1);
+}
+#verbal{
+    border-radius: 8px;
+    background-color:  hsla(166, 100%, 37%, 0.08);
+    padding: 5%;
+}
+.verbold{
+ color: hsla(166, 100%, 37%, 1);
+}
+#visual{
+    border-radius: 8px;
+    background-color:  hsla(234, 85%, 45%, 0.08);
+    padding: 5%;
+}
+.visbold{
+color: hsla(234, 85%, 45%, 1);
+}
+ button{
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 100px;
+    color:hsl(0, 0%, 100%);
+    width: 100%;
+    padding: 5%;
+ }
+ .distance{
+    padding-left: 30%;
+ }
+ .distance1{
+ padding-left: 38%;
+ }
+ p{
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.5)
+ }
+ svg{
+    align-items: centre;
+ }
+ button:hover span {
+    display: none
+  }
+  .sum{
+    font-weight: 700;
+  }
+  .all{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
