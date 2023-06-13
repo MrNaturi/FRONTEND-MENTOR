@@ -62,6 +62,7 @@
     width:20%;
     text-align: start;
     box-shadow: 5px 3px 10px hsla(224, 30%, 27%, 0.1);
+    padding: 1%;
     /* align-items: center; */
     }
     .light1{
@@ -118,7 +119,10 @@
     padding-left: 30%;
     }
  .distance1{
-    padding-left: 38%;
+    padding-left: 35%;
+ }
+ .distance2{
+    padding-left: 30%;
  }
     p{
     font-weight: 500;
